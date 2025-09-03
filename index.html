@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Technologist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">AC</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Mirza Zeeshan Baig</h1>
+                    <p class="tagline">Creative Technologist crafting digital experiences that blend innovation with purpose</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#" class="btn btn-secondary" onclick="downloadResume()">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar">AC</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">Professional Photo</div>
+                <div class="about-text">
+                    <p>I'm a passionate Creative Technologist with a unique blend of technical expertise and creative vision. With over 5 years of experience in full-stack development and digital design, I specialize in creating innovative solutions that bridge the gap between technology and user experience.</p>
+                    <p>My journey began in computer science, but I've always been drawn to the intersection of technology and creativity. I believe that the best digital products are born when technical excellence meets thoughtful design and user-centered thinking.</p>
+                    <p>When I'm not coding or designing, you'll find me exploring emerging technologies, contributing to open-source projects, or mentoring aspiring developers in my local tech community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Certifications</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Three.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Creative Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe Creative Suite</span>
+                        <span class="skill-tag">Blender</span>
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">Sketch</span>
+                        <span class="skill-tag">Principle</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Certifications</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS Certified Developer</span>
+                        <span class="skill-tag">Google Cloud Professional</span>
+                        <span class="skill-tag">Certified Scrum Master</span>
+                        <span class="skill-tag">UX Design Certificate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">Project Screenshot</div>
+                    <div class="project-content">
+                        <h3>EcoTrack - Sustainability Dashboard</h3>
+                        <p>A comprehensive web application that helps companies track and visualize their environmental impact through interactive dashboards and real-time analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Project Screenshot</div>
+                    <div class="project-content">
+                        <h3>MindSpace - VR Meditation App</h3>
+                        <p>An immersive virtual reality meditation experience built with WebXR, featuring guided sessions in photorealistic environments.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">WebXR</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Blender</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Project Screenshot</div>
+                    <div class="project-content">
+                        <h3>CodeCollab - Real-time Code Editor</h3>
+                        <p>A collaborative coding platform that enables real-time code editing, video chat, and project sharing for remote development teams.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Monaco Editor</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p style="font-size: 1.125rem; color: var(--text-light); margin-bottom: 2rem;">
+                I'm always interested in new opportunities and collaborations. 
+                Feel free to reach out if you'd like to discuss a project or just say hello!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:alex.chen@email.com" class="contact-link">
+                    📧 Email
+                </a>
+                <a href="https://linkedin.com/in/alexchen" class="contact-link" target="_blank">
+                    💼 LinkedIn
+                </a>
+                <a href="https://github.com/alexchen" class="contact-link" target="_blank">
+                    🐙 GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mirza Zeeshan Baig. Built with passion and coffee ☕</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
